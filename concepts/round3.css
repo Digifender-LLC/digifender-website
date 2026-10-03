@@ -1,0 +1,213 @@
+/* Round 03. All additions are scoped; retained pages are unchanged. */
+.round-three{--line:#354c60;--muted:#a4bacc;--accent:#79e5ea;color:#edf4fa;background:#09172b}
+.round-three .site-header{height:110px;border-bottom:1px solid var(--line)}
+.round-three .site-header nav{font-size:11px;font-weight:500}
+.round-three .eyebrow{font-size:10px;font-weight:550}
+.round-three .under-link{font-size:12px;font-weight:500}
+.round-three .about-grid{border-top:1px solid var(--line);background:#0d2033;padding-top:80px;padding-bottom:80px}
+.round-three .about-grid h2{font-size:clamp(38px,4.4vw,64px)}
+.round-three .body-copy{font-size:17px;color:#b4c9d9}
+.round-three .product-switcher{padding-top:45px;padding-bottom:75px}
+.round-three .slider-dark .brand-panel{background:#132941;border-color:#354b63}
+.round-three .slider-dark .panel-1{background:#142f33}
+.round-three .slider-dark .panel-2{background:#102d3b}
+.round-three .slider-dark .product-art{color:#e4f1ff}
+.round-three .slider-dark .mini-window{background:#10233f;border-color:#527293}
+.round-three .slider-dark .window-dots{border-color:#3b546d;color:#84a7c5}
+.round-three .slider-dark .window-content>div{background:#365071}
+.round-three .slider-dark .lab-stack>div{background:#244856;color:#d6f1f5;border:1px solid #527a85}
+.round-three .slider-dark .lab-stack i{background:#79e5ea}
+.round-three .slider-dark .lab-prompt{background:#0c202c;color:#94dde6;border:1px solid #45646f}
+.round-three .slider-dark .chapel-arch{border-color:#21464a;background:#305958;box-shadow:inset 0 0 0 22px #497671}
+.round-three .slider-dark .chapel-arch span,.round-three .slider-dark .chapel-arch span:after{background:#b1d9c8}
+.round-three .slider-dark .brand-tabs button{font-size:12px}
+.round-three .site-footer{background:#09172b}
+/* 01 — editorial index, tall enclosed mark. */
+.r01{background:#0b1b30}
+.r01 .site-header{margin:0 5.5%;padding-left:0;padding-right:0}
+.after-hero{display:grid;grid-template-columns:155px minmax(0,1fr) 29%;gap:5%;padding:55px 5.5% 70px;min-height:585px}
+.after-index{padding-top:12px}
+.after-index>.eyebrow{color:#8eaac5;line-height:1.8;margin-bottom:65px;letter-spacing:.14em}
+.after-index>a{display:block;border-top:1px solid #304960;font-size:10px;padding:18px 0;color:#c9d8e6}
+.after-index>a>span{font:9px monospace;color:#7292af;display:block;margin-bottom:6px}
+.after-copy>.eyebrow{color:#a9c0d4;margin:8px 0 32px}
+.after-copy h1{font-size:clamp(55px,5.9vw,87px);line-height:1.05;font-weight:450;letter-spacing:-.06em}
+.after-copy h1 span{color:#79e5ea}
+.after-copy>p:not(.eyebrow){font-size:13px;line-height:1.9;max-width:290px;color:#aac0d5;margin-top:28px}
+.after-copy .under-link{margin-top:20px}
+.after-art{border:1px solid #486176;position:relative;background:linear-gradient(90deg,transparent calc(50% - .5px),#415a7233 50%,transparent calc(50% + .5px)),linear-gradient(transparent calc(50% - .5px),#415a7233 50%,transparent calc(50% + .5px));display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 18px 28px}
+.after-art .brand-mark{width:78%;max-width:220px;margin:auto}
+.after-art figcaption{font:8px/1.8 monospace;letter-spacing:.13em;color:#9bb5cd;width:100%;border-top:1px solid #365169;padding-top:20px}
+.art-tick{position:absolute;right:-6px;top:-16px;color:#87a7bd;font:20px monospace}
+.slider-after{border-top:1px solid var(--line)}
+.slider-after .brand-tabs{gap:0}
+.slider-after .brand-tabs button+button{border-left:1px solid var(--line)}
+/* 02 — industrial typography and a large brand plate. */
+.r02{background:#0c202b;--line:#37515d}
+.r02 .site-header{height:105px}
+.r02 .site-header nav,.r02 .eyebrow{font-family:monospace}
+.foundry-hero{padding:25px 5.5% 0}
+.foundry-top{display:flex;justify-content:space-between;gap:20px;align-items:center;color:#9db7c5}
+.foundry-top>span{font:9px monospace;letter-spacing:.06em}
+.foundry-main{display:grid;grid-template-columns:1.5fr 1fr;gap:10%;padding:37px 0 42px}
+.foundry-main h1{font-size:clamp(74px,8.8vw,125px);font-weight:800;line-height:.88;letter-spacing:-.075em}
+.foundry-main h1>span{color:#79e5ea}
+.foundry-main p{font-size:12px;line-height:1.85;margin-top:24px;color:#b2c8d2;max-width:355px}
+.foundry-main .under-link{margin-top:13px}
+.foundry-plate{align-self:stretch;background:#193746;border:1px solid #4a707b;display:flex;flex-direction:column;align-items:center;padding:24px;position:relative}
+.plate-label{width:100%;display:flex;justify-content:space-between;font:10px monospace;color:#95b7c2}
+.plate-label>span:last-child{font-size:19px;line-height:.6}
+.foundry-plate .brand-mark{width:75%;max-width:250px;flex:1;min-height:220px;margin:20px 0}
+.plate-caption{font:9px monospace;letter-spacing:.1em;color:#b0ccd7;width:100%;padding:20px 0;border-top:1px solid #507482}
+.plate-lines{display:flex;width:100%;gap:7px;height:20px}
+.plate-lines i{height:100%;flex:1;background:#426975}
+.plate-lines i:last-child{background:#79e5ea}
+.foundry-rail{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-top:1px solid #3d5a67;border-bottom:1px solid #3d5a67;font:10px monospace;letter-spacing:.05em;color:#b1c8d2}
+.foundry-rail b{font-weight:400;color:#79e5ea}
+.slider-foundry .slider-heading,.slider-foundry .brand-tabs button{font-family:monospace}
+.slider-foundry .brand-tabs{gap:6px;border:0}
+.slider-foundry .brand-tabs button{border:1px solid #466070}
+.slider-foundry .brand-tabs button[aria-selected=true]{color:#09172b;background:#79e5ea;border-color:#79e5ea}
+.r02 .about-grid{background:#112b38}
+/* 03 — a drafting sheet, completely in the dark palette. */
+.r03{background:#0d2136;--line:#3c5872}
+.r03 .site-header{background:#0b1b2e}
+.nightprint-hero{padding:50px 5.5% 0;display:grid;grid-template-columns:1fr 1.22fr;column-gap:8%;background-image:linear-gradient(#789abd0b 1px,transparent 1px),linear-gradient(90deg,#789abd0b 1px,transparent 1px);background-size:27px 27px}
+.nightprint-drawing{border:1px solid #57738d;align-self:stretch;display:flex;flex-direction:column;min-height:415px}
+.drawing-meta,.nightprint-drawing figcaption{display:flex;justify-content:space-between;gap:20px;padding:18px 20px;font:8px monospace;color:#a4bdd0;letter-spacing:.06em}
+.drawing-meta{border-bottom:1px solid #395772}
+.nightprint-drawing figcaption{border-top:1px solid #395772}
+.nightprint-symbol{position:relative;display:grid;place-items:center;flex:1;padding:32px 48px;min-height:300px}
+.nightprint-symbol:before,.nightprint-symbol:after{content:'';position:absolute;background:#3e617c66}
+.nightprint-symbol:before{width:100%;height:1px;top:50%;left:0}.nightprint-symbol:after{width:1px;height:100%;left:50%;top:0}
+.nightprint-symbol .brand-mark{width:205px;max-width:85%;position:relative;z-index:1}
+.dimension{position:absolute;font:7px monospace;letter-spacing:.1em;color:#8facbf}
+.dimension-v{writing-mode:vertical-rl;left:15px;top:26%;border-right:1px solid #5e7991;padding-right:8px}
+.dimension-h{bottom:15px;border-top:1px solid #5e7991;padding-top:8px;width:50%;text-align:center}
+.nightprint-copy{padding:0 0 8px}
+.nightprint-copy>.eyebrow{font:10px monospace;color:#a5bfd2}
+.nightprint-copy h1{font-size:clamp(48px,5.2vw,77px);font-weight:500;line-height:1.04;margin:23px 0}
+.nightprint-copy h1>span{color:#79e5ea}
+.nightprint-copy>p:not(.eyebrow){font-size:12px;color:#b3c7d9;line-height:1.85;max-width:350px}
+.nightprint-copy .under-link{margin-top:18px}
+.nightprint-key{grid-column:1/-1;display:flex;justify-content:space-between;font:9px monospace;letter-spacing:.06em;border-top:1px solid #46627b;color:#afc6d7;margin-top:40px;padding:22px 0}
+.slider-nightprint .slider-heading,.slider-nightprint .brand-tabs button{font-family:monospace}
+.slider-nightprint .brand-panel{border-style:dashed}
+.r03 .about-grid{background:#0b1b2e}
+/* 07 — centered statement and connected brand constellation. */
+.r07{background:#08182e}
+.r07 .site-header{border-bottom:0}
+.orbit-hero{text-align:center;padding:38px 5.5% 25px;overflow:hidden}
+.orbit-hero>.eyebrow{color:#a6c2d7;font-size:9px;margin:0 auto}
+.orbit-hero h1{font-size:clamp(52px,6.6vw,96px);font-weight:450;line-height:1.07;margin:24px 0}
+.orbit-hero h1>span{color:#79e5ea}
+.orbit-hero>p:not(.eyebrow){margin:0 auto;font-size:12px;line-height:1.85;color:#aec4d8}
+.orbit-map{position:relative;padding-top:100px;margin:27px auto 0;max-width:900px}
+.orbit-ring{position:absolute;width:65%;height:270px;border:1px solid #355b7b;border-radius:50%;top:0;left:17.5%;transform:rotate(-9deg)}
+.orbit-ring:after{content:'';position:absolute;width:9px;height:9px;background:#79e5ea;border-radius:50%;right:12%;top:15%}
+.orbit-center{height:112px;width:112px;position:absolute;left:calc(50% - 56px);top:-10px;display:grid;place-items:center;background:#08182e;padding:12px}
+.orbit-center .brand-mark{height:95px;width:80px}
+.orbit-brands{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+.orbit-brands a{border-top:1px solid #64829a;text-align:left;padding:18px 0 22px;position:relative;background:#08182e}
+.orbit-brands a:before{content:'';position:absolute;top:-5px;left:0;width:7px;height:7px;border:1px solid #8bcad7;background:#09172b}
+.orbit-brands a>span:first-child{font:8px monospace;display:block;color:#95b1c8;margin-bottom:12px;letter-spacing:.02em}
+.orbit-brands b{font-size:23px;font-weight:450;letter-spacing:-.03em}
+.orbit-brands a>span:last-child{position:absolute;right:3px;bottom:25px;color:#79e5ea}
+.orbit-brands a:hover b{color:#79e5ea}
+.slider-orbit{border-top:1px solid #35516a}
+.slider-orbit .brand-tabs button[aria-selected=true]{background:#1a3a53}
+.r07 .about-grid{background:#0e2440}
+/* 09 — quiet typographic introduction and an oversized identity. */
+.r09{background:#0c182a}
+.r09 .site-header{margin:0 6%;padding-left:0;padding-right:0;height:125px}
+.quietsignal-hero{padding:25px 6% 0}
+.quietsignal-top{display:flex;justify-content:space-between;gap:25px;color:#91a9c0}
+.quietsignal-top>.eyebrow{font-size:9px;letter-spacing:.2em}
+.quietsignal-top>span{font-size:10px}
+.quietsignal-main{display:grid;grid-template-columns:1.5fr 1fr;gap:7%;padding:40px 0 35px}
+.quietsignal-main h1{font-size:clamp(55px,6.4vw,93px);font-weight:400;letter-spacing:-.063em;line-height:1.08}
+.quietsignal-main h1>span{color:#b8d9e5}
+.quietsignal-main>div>p{color:#9fb7cd;font-size:13px;line-height:1.9;max-width:330px;margin-top:27px}
+.quietsignal-main .under-link{margin-top:19px;color:#bce7ec}
+.quietsignal-main figure{padding:8px 0;align-self:stretch;display:flex;flex-direction:column;align-items:center;justify-content:space-between}
+.quietsignal-main .brand-mark{width:260px;max-width:75%;margin:auto;opacity:.8}
+.quietsignal-main figcaption{font-size:10px;line-height:1.8;color:#819db7;text-align:center;margin-top:20px}
+.quietsignal-bottom{display:flex;justify-content:space-between;border-top:1px solid #354d64;padding:21px 0;color:#8ea7be;font:8px monospace;letter-spacing:.13em}
+.quietsignal-bottom>span:last-child{font-size:16px;color:#79e5ea;line-height:.8}
+.slider-quietsignal .slider-heading{display:none}
+.r09 .slider-quietsignal{padding-top:15px}
+.slider-quietsignal .brand-tabs{gap:0;margin-bottom:0;border:1px solid #344b61}
+.slider-quietsignal .brand-tabs button[aria-selected=true]{background:#245fe5;border-color:#245fe5}
+.slider-quietsignal .brand-panel{border-top:0}
+.r09 .about-grid{background:#112339}
+/* 10 — fixed editorial sidebar with a systems diagram. */
+.r10{background:#101f2e}
+.systems-layout{display:grid;grid-template-columns:260px minmax(0,1fr)}
+.systems-sidebar{position:sticky;top:0;height:100svh;align-self:start;display:flex;flex-direction:column;padding:32px 25px;background:#081522;border-right:1px solid #354b60;gap:44px}
+.systems-sidebar .logo{width:210px}
+.systems-sidebar>.eyebrow{font:9px/1.9 monospace;color:#8faaC2;letter-spacing:.05em}
+.systems-sidebar nav a{font-size:12px;display:block;border-top:1px solid #304356;padding:19px 0}
+.systems-sidebar nav a>span{font:9px monospace;color:#79e5ea;margin-right:16px}
+.systems-sidebar-foot{margin-top:auto}
+.systems-sidebar-foot .brand-mark{width:45px;margin-bottom:32px;opacity:.65}
+.systems-sidebar-foot>a{font-size:10px;color:#b1c5d6}
+.systems-content{min-width:0}
+.systems-hero{padding:34px 6% 0;background-image:radial-gradient(#8fc4de26 .7px,transparent .7px);background-size:17px 17px}
+.systems-top{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid #3d556a;padding-bottom:23px;color:#a6bfd3}
+.systems-top>.eyebrow{font:9px monospace;letter-spacing:.06em}
+.systems-top>span{font:8px monospace;letter-spacing:.06em}
+.systems-hero h1{font-size:clamp(49px,5.3vw,77px);font-weight:550;line-height:1.06;margin:49px 0 25px}
+.systems-hero h1>span{color:#79e5ea}
+.systems-hero>p{font-size:13px;line-height:1.9;max-width:435px;color:#a9c0d2}
+.systems-diagram{padding:32px 0 37px;margin-top:12px}
+.systems-root{border:1px solid #50718a;background:#163449;padding:12px 20px;width:fit-content;margin:auto;font:10px monospace;position:relative}
+.systems-root>span{font:9px Manrope,sans-serif;color:#79e5ea;border-right:1px solid #5e7d90;margin-right:15px;padding-right:15px}
+.systems-root:after{content:'';height:25px;width:1px;background:#55738a;position:absolute;bottom:-26px;left:50%}
+.systems-branches{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;position:relative;margin-top:45px}
+.systems-branches:before{content:'';height:1px;background:#55738a;position:absolute;left:16%;right:16%;top:-21px}
+.systems-branches>a{position:relative;display:flex;align-items:center;gap:12px;background:#102637;border:1px solid #3b5870;padding:15px 12px;font-size:12px}
+.systems-branches>a:before{content:'';position:absolute;left:50%;top:-21px;height:20px;width:1px;background:#55738a}
+.systems-branches a>span:first-child{font:8px monospace;color:#88acc5}
+.systems-branches b{font-weight:450;letter-spacing:-.015em}
+.systems-branches a>span:last-child{margin-left:auto;color:#79e5ea}
+.systems-branches a:hover{background:#1e4056}
+.r10 .product-switcher{padding:20px 6% 70px}
+.slider-systems .slider-heading>span{display:none}
+.slider-systems .brand-tabs button{gap:8px;padding-left:12px;padding-right:12px}
+.slider-systems .brand-panel{padding:35px 5%;gap:20px;min-height:370px}
+.slider-systems .brand-panel h2{font-size:35px}
+.slider-systems .product-art{min-height:280px;align-self:center}
+.slider-systems .mini-window{inset:26px 0 0 12px}
+.slider-systems .window-content{padding:25px 18px}
+.slider-systems .window-content b{font-size:32px}
+.slider-systems .mini-chat{font-size:9px;padding:14px 17px;gap:17px}
+.r10 .about-grid{grid-template-columns:1fr;padding-left:6%;padding-right:6%;gap:30px}
+.r10 .about-grid h2{font-size:48px}
+.r10 .site-footer{grid-template-columns:1fr}
+.r10 .site-footer>div{justify-content:flex-start}
+@media(min-width:1600px){.round-three main,.round-three>.site-footer{max-width:1600px;margin:auto}.r10 .systems-hero h1{font-size:82px}}
+@media(max-width:1050px){
+ .after-hero{grid-template-columns:130px minmax(0,1fr) 26%;gap:4%}.after-copy h1{font-size:62px}.after-art .brand-mark{width:95%}
+ .foundry-main{gap:7%}.foundry-main h1{font-size:95px}
+ .nightprint-hero{column-gap:6%}.nightprint-copy h1{font-size:57px}.nightprint-symbol{padding-left:35px;padding-right:35px}
+ .systems-layout{grid-template-columns:225px minmax(0,1fr)}.systems-sidebar{padding:30px 20px}.systems-sidebar .logo{width:185px}.systems-top>span{display:none}.systems-hero h1{font-size:56px}.systems-branches>a{flex-wrap:wrap;gap:6px}.systems-branches a>span:first-child{display:none}.systems-branches b{font-size:11px}
+ .slider-systems .brand-panel{grid-template-columns:1fr}.slider-systems .product-art{width:320px;max-width:100%;justify-self:center}.slider-systems .brand-tabs button>span{display:none}.slider-systems .brand-tabs button{justify-content:center;font-size:11px}
+}
+@media(max-width:700px){
+ .round-three .site-header{min-height:120px;height:auto}.round-three .site-header nav{font-size:10px}.round-three .product-switcher{padding:35px 6% 50px}.round-three .about-grid{padding:55px 6%;gap:25px}.round-three .about-grid h2{font-size:39px}.round-three .body-copy{font-size:15px}.round-three .slider-dark .brand-tabs button{font-size:11px}.round-three .slider-dark .brand-panel h2{font-size:35px}
+ .after-hero{padding:32px 6% 40px;grid-template-columns:1fr;gap:30px;min-height:0}.after-index{display:none}.after-copy>.eyebrow{margin:0 0 25px}.after-copy h1{font-size:60px}.after-copy>p:not(.eyebrow){font-size:13px;margin-top:23px;max-width:295px}.after-art{height:220px;padding:24px;flex-direction:row;gap:25px}.after-art .brand-mark{width:125px;height:160px;margin:0}.after-art figcaption{font-size:7px;border-top:0;border-left:1px solid #365169;padding:0 0 0 20px;width:auto}
+ .foundry-hero{padding:24px 6% 0}.foundry-top>span{display:none}.foundry-main{grid-template-columns:1fr;gap:30px;padding:30px 0}.foundry-main h1{font-size:86px}.foundry-main p{font-size:13px}.foundry-plate{min-height:260px;padding:20px}.foundry-plate .brand-mark{height:165px;min-height:0;width:130px;margin:10px 0}.plate-caption{font-size:8px;padding:14px 0}.plate-lines{height:12px}.foundry-rail{font-size:7px;letter-spacing:0;gap:10px;padding:20px 0}.foundry-rail b{display:none}
+ .nightprint-hero{padding:30px 6% 0;grid-template-columns:1fr;gap:30px}.nightprint-copy{grid-row:1}.nightprint-copy h1{font-size:52px;margin:25px 0}.nightprint-copy>p:not(.eyebrow){font-size:13px}.nightprint-drawing{min-height:330px;margin:0 4%}.nightprint-symbol{min-height:240px}.nightprint-symbol .brand-mark{height:180px;width:150px}.drawing-meta,.nightprint-drawing figcaption{font-size:7px;padding:14px}.dimension-v{left:10px;font-size:6px}.dimension-h{font-size:6px;bottom:12px}.nightprint-key{font-size:7px;letter-spacing:0;gap:12px;margin-top:0;padding:20px 0}
+ .orbit-hero{padding:30px 6% 25px}.orbit-hero>.eyebrow{font-size:8px;line-height:1.8;max-width:250px;margin:auto}.orbit-hero h1{font-size:46px;margin:22px 0}.orbit-hero>p:not(.eyebrow){font-size:12px}.orbit-map{padding-top:85px;margin-top:35px}.orbit-ring{width:85%;left:7.5%;height:210px}.orbit-center{height:95px;width:90px;left:calc(50% - 45px);padding:10px}.orbit-center .brand-mark{height:78px;width:65px}.orbit-brands{gap:10px;margin-top:28px}.orbit-brands a{padding:15px 0 28px;text-align:center}.orbit-brands a>span:first-child{font-size:7px;line-height:1.5;min-height:31px;margin-bottom:6px}.orbit-brands b{font-size:14px;letter-spacing:-.03em}.orbit-brands a>span:last-child{font-size:12px;right:calc(50% - 5px);bottom:3px}
+ .r09 .site-header{height:auto;min-height:120px}.quietsignal-hero{padding:25px 6% 0}.quietsignal-top>span{font-size:8px}.quietsignal-main{grid-template-columns:1fr;gap:35px;padding:30px 0}.quietsignal-main h1{font-size:52px}.quietsignal-main>div>p{font-size:13px;margin-top:23px}.quietsignal-main figure{flex-direction:row;justify-content:space-between;gap:30px;padding:0 10px}.quietsignal-main .brand-mark{width:130px;height:155px;margin:0}.quietsignal-main figcaption{font-size:10px;text-align:left;margin:0}.quietsignal-bottom{font-size:7px;letter-spacing:.04em;gap:20px;padding:21px 0}.r09 .slider-quietsignal{padding-top:15px}
+ .systems-layout{grid-template-columns:1fr}.systems-sidebar{position:static;height:auto;padding:24px 6% 20px;gap:18px;border-right:0;border-bottom:1px solid #354b60}.systems-sidebar .logo{width:235px}.systems-sidebar>.eyebrow,.systems-sidebar-foot{display:none}.systems-sidebar nav{display:flex;gap:22px}.systems-sidebar nav a{border:0;padding:5px 0;font-size:10px}.systems-sidebar nav a>span{display:none}.systems-hero{padding:26px 6% 0}.systems-top>.eyebrow{font-size:8px}.systems-top{padding-bottom:20px}.systems-hero h1{font-size:47px;margin:33px 0 22px}.systems-hero>p{font-size:12px}.systems-diagram{padding-top:25px;margin-top:5px}.systems-root{font-size:9px;padding:12px 15px}.systems-branches{gap:8px}.systems-branches>a{padding:13px 5px;justify-content:center}.systems-branches b{font-size:11px}.systems-branches a>span:last-child{display:none}.r10 .product-switcher{padding:15px 6% 50px}.slider-systems .brand-panel{padding:30px 7%}.slider-systems .brand-panel h2{font-size:35px}.slider-systems .brand-tabs button{padding:16px 7px}.slider-systems .product-art{width:100%;min-height:250px}.r10 .about-grid h2{font-size:38px}
+}
+@media(max-width:360px){
+ .round-three .slider-dark .brand-tabs button{font-size:10px}.round-three .slider-dark .brand-panel h2{font-size:31px}.round-three .site-header nav{gap:20px}
+ .after-copy h1{font-size:53px}.after-art{gap:18px;padding:20px 15px}.after-art .brand-mark{width:108px}.after-art figcaption{padding-left:15px}
+ .foundry-main h1{font-size:73px}.foundry-rail{font-size:6px}
+ .nightprint-copy h1{font-size:47px}.nightprint-key{font-size:6px;gap:8px}
+ .orbit-hero h1{font-size:39px}.orbit-brands b{font-size:12px}.orbit-brands a>span:first-child{font-size:6px}
+ .quietsignal-main h1{font-size:45px}.quietsignal-main .brand-mark{width:110px}.quietsignal-top>span{font-size:7px}.quietsignal-main figure{gap:22px}
+ .systems-hero h1{font-size:41px}.systems-branches b{font-size:9px}.systems-sidebar nav{gap:17px}.systems-sidebar nav a{font-size:9px}
+}

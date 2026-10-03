@@ -1,0 +1,16 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "digifender-mta-sts",
+  "main": "worker.mjs",
+  "account_id": "f94d28e88a63fb6f34c3ecbc05aa3faf",
+  "compatibility_date": "2026-10-03",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "mta-sts.digifender.com", "custom_domain": true },
+    { "pattern": "mta-sts.whumpo.com", "custom_domain": true },
+    { "pattern": "mta-sts.openhost.pro", "custom_domain": true },
+    { "pattern": "mta-sts.chapel.cloud", "custom_domain": true }
+  ],
+  "observability": { "enabled": false }
+}

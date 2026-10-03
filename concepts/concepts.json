@@ -1,0 +1,4 @@
+[
+  {"id":"signal","label":"A","name":"Signal","url":"http://localhost:8793/","sourceFavorites":["06","08","02","03"]},
+  {"id":"blueprint","label":"B","name":"Blueprint","url":"http://localhost:8794/","sourceFavorites":["06","08","02","03"]}
+]

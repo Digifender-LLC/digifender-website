@@ -1,0 +1,220 @@
+{
+  "brand": "Digifender",
+  "wordmark": "digifender",
+  "geometry": "All 17 paths and the 48-unit stroke are preserved from the approved fingerprint-geometric.svg; only uniform scaling and positioning are applied.",
+  "font": {
+    "family": "Manrope",
+    "weight": 650,
+    "tracking_font_units": -8,
+    "export": "All lettering in SVG artwork is outlined as vector paths."
+  },
+  "palette": {
+    "Midnight": "#09172B",
+    "Ink": "#10233F",
+    "Cobalt": "#245FE5",
+    "Cyan": "#12B7D5",
+    "Paper": "#F4F7FB"
+  },
+  "gradients": {
+    "signature": [
+      "#12B7D5",
+      "#1479EE",
+      "#3454D8"
+    ],
+    "glacier": [
+      "#79E5EA",
+      "#54ACF6",
+      "#8994FF"
+    ]
+  },
+  "guidance": {
+    "clear_space": "Allow at least 20% of the symbol height around a complete lockup, beyond the SVG canvas where needed.",
+    "minimum_size": "Recommended full symbol height: 48 CSS px for digital use, 12 mm in print. Proof at final size; no simplified small-size symbol is included.",
+    "backgrounds": "Use Signature, Cobalt, Ink, or Black on light backgrounds. Use Glacier or White on Midnight or comparably dark, quiet backgrounds.",
+    "gradient": "Gradient runs upper left to lower right, continuously across the whole mark.",
+    "geometry": "Scale proportionally. Preserve path data, stroke weight, and ridge gaps.",
+    "exports": "Transparent SVG and PNG for symbols and lockups. App icons deliberately include a background. PNGs use sRGB colors; proof with the printer before CMYK production."
+  },
+  "assets": [
+    {
+      "file": "symbols/digifender-symbol-signature.svg",
+      "category": "symbols",
+      "style": "signature",
+      "title": "Digifender \u2014 Signature symbol",
+      "background": "#FFFFFF",
+      "width": 1064,
+      "height": 1178
+    },
+    {
+      "file": "horizontal/digifender-horizontal-signature.svg",
+      "category": "horizontal",
+      "style": "signature",
+      "title": "Digifender \u2014 Signature horizontal lockup",
+      "background": "#FFFFFF",
+      "width": 1134.7428571428572,
+      "height": 336
+    },
+    {
+      "file": "symbols/digifender-symbol-glacier.svg",
+      "category": "symbols",
+      "style": "glacier",
+      "title": "Digifender \u2014 Glacier symbol",
+      "background": "#09172B",
+      "width": 1064,
+      "height": 1178
+    },
+    {
+      "file": "horizontal/digifender-horizontal-glacier.svg",
+      "category": "horizontal",
+      "style": "glacier",
+      "title": "Digifender \u2014 Glacier horizontal lockup",
+      "background": "#09172B",
+      "width": 1134.7428571428572,
+      "height": 336
+    },
+    {
+      "file": "symbols/digifender-symbol-cobalt.svg",
+      "category": "symbols",
+      "style": "cobalt",
+      "title": "Digifender \u2014 Cobalt symbol",
+      "background": "#FFFFFF",
+      "width": 1064,
+      "height": 1178
+    },
+    {
+      "file": "horizontal/digifender-horizontal-cobalt.svg",
+      "category": "horizontal",
+      "style": "cobalt",
+      "title": "Digifender \u2014 Cobalt horizontal lockup",
+      "background": "#FFFFFF",
+      "width": 1134.7428571428572,
+      "height": 336
+    },
+    {
+      "file": "symbols/digifender-symbol-ink.svg",
+      "category": "symbols",
+      "style": "ink",
+      "title": "Digifender \u2014 Ink symbol",
+      "background": "#F4F7FB",
+      "width": 1064,
+      "height": 1178
+    },
+    {
+      "file": "horizontal/digifender-horizontal-ink.svg",
+      "category": "horizontal",
+      "style": "ink",
+      "title": "Digifender \u2014 Ink horizontal lockup",
+      "background": "#F4F7FB",
+      "width": 1134.7428571428572,
+      "height": 336
+    },
+    {
+      "file": "symbols/digifender-symbol-white.svg",
+      "category": "symbols",
+      "style": "white",
+      "title": "Digifender \u2014 White symbol",
+      "background": "#09172B",
+      "width": 1064,
+      "height": 1178
+    },
+    {
+      "file": "horizontal/digifender-horizontal-white.svg",
+      "category": "horizontal",
+      "style": "white",
+      "title": "Digifender \u2014 White horizontal lockup",
+      "background": "#09172B",
+      "width": 1134.7428571428572,
+      "height": 336
+    },
+    {
+      "file": "symbols/digifender-symbol-black.svg",
+      "category": "symbols",
+      "style": "black",
+      "title": "Digifender \u2014 Black symbol",
+      "background": "#FFFFFF",
+      "width": 1064,
+      "height": 1178
+    },
+    {
+      "file": "horizontal/digifender-horizontal-black.svg",
+      "category": "horizontal",
+      "style": "black",
+      "title": "Digifender \u2014 Black horizontal lockup",
+      "background": "#FFFFFF",
+      "width": 1134.7428571428572,
+      "height": 336
+    },
+    {
+      "file": "horizontal/digifender-horizontal-signature-inverse.svg",
+      "category": "horizontal",
+      "style": "signature",
+      "title": "Digifender \u2014 Signature inverse horizontal lockup",
+      "background": "#09172B",
+      "width": 1134.7428571428572,
+      "height": 336
+    },
+    {
+      "file": "wordmarks/digifender-wordmark-ink.svg",
+      "category": "wordmarks",
+      "style": "ink",
+      "title": "Digifender \u2014 Ink wordmark",
+      "background": "#F4F7FB",
+      "width": 973.5,
+      "height": 276
+    },
+    {
+      "file": "wordmarks/digifender-wordmark-white.svg",
+      "category": "wordmarks",
+      "style": "white",
+      "title": "Digifender \u2014 White wordmark",
+      "background": "#09172B",
+      "width": 973.5,
+      "height": 276
+    },
+    {
+      "file": "stacked/digifender-stacked-signature.svg",
+      "category": "stacked",
+      "style": "signature",
+      "title": "Digifender \u2014 Signature stacked lockup",
+      "background": "#FFFFFF",
+      "width": 920,
+      "height": 800
+    },
+    {
+      "file": "stacked/digifender-stacked-glacier.svg",
+      "category": "stacked",
+      "style": "glacier",
+      "title": "Digifender \u2014 Glacier stacked lockup",
+      "background": "#09172B",
+      "width": 920,
+      "height": 800
+    },
+    {
+      "file": "stacked/digifender-stacked-ink.svg",
+      "category": "stacked",
+      "style": "ink",
+      "title": "Digifender \u2014 Ink stacked lockup",
+      "background": "#F4F7FB",
+      "width": 920,
+      "height": 800
+    },
+    {
+      "file": "app-icons/digifender-app-light.svg",
+      "category": "app-icons",
+      "style": "signature",
+      "title": "Digifender \u2014 application icon",
+      "background": "#FFFFFF",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "app-icons/digifender-app-dark.svg",
+      "category": "app-icons",
+      "style": "glacier",
+      "title": "Digifender \u2014 application icon",
+      "background": "#09172B",
+      "width": 1024,
+      "height": 1024
+    }
+  ]
+}

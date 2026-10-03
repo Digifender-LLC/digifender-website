@@ -1,0 +1,9 @@
+:root {
+  --digifender-midnight: #09172B;
+  --digifender-ink: #10233F;
+  --digifender-cobalt: #245FE5;
+  --digifender-cyan: #12B7D5;
+  --digifender-paper: #F4F7FB;
+  --digifender-gradient-signature: linear-gradient(142deg, #12B7D5 0%, #1479EE 52%, #3454D8 100%);
+  --digifender-gradient-glacier: linear-gradient(142deg, #79E5EA 0%, #54ACF6 52%, #8994FF 100%);
+}

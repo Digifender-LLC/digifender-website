@@ -1,0 +1,28 @@
+{
+  "name": "digifender-company-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node designs/build.mjs",
+    "build:html": "node tools/build.mjs",
+    "dev": "pnpm build && wrangler dev --host localhost --port 8791",
+    "test": "node tools/verify.mjs",
+    "check:portfolio": "node tools/check-portfolio-links.mjs",
+    "check:domains": "node tools/check-domain-entrypoints.mjs",
+    "deploy": "pnpm build && pnpm test && wrangler deploy",
+    "build:designs": "node designs/build.mjs",
+    "preview:designs": "node designs/serve.mjs",
+    "test:designs": "node designs/verify.mjs",
+    "check:live": "node designs/live-check.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.143.0",
+    "@playwright/test": "1.63.0",
+    "@axe-core/playwright": "4.13.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@11.19.0"
+}

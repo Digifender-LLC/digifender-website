@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.wrangler/
+.evidence/
+.env*
+.dev.vars*
+
+# Local reports and rebuildable design packages
+tmp/
+concepts/evidence/
+designs/evidence/
+designs/releases/
+*.key
+*.pem
+.secrets/
+.venv/
+__pycache__/

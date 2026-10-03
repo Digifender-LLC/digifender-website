@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1064" height="1178" viewBox="0 0 1064 1178" fill="none">
+<title>Digifender — Ink symbol</title>
+<defs>
+<linearGradient id="signature" gradientUnits="userSpaceOnUse" x1="220" y1="140" x2="980" y2="1100">
+  <stop offset="0" stop-color="#12B7D5"/><stop offset="0.52" stop-color="#1479EE"/><stop offset="1" stop-color="#3454D8"/>
+</linearGradient>
+<linearGradient id="glacier" gradientUnits="userSpaceOnUse" x1="220" y1="140" x2="980" y2="1100">
+  <stop offset="0" stop-color="#79E5EA"/><stop offset="0.52" stop-color="#54ACF6"/><stop offset="1" stop-color="#8994FF"/>
+</linearGradient>
+</defs>
+<g transform="translate(64 64) scale(1) translate(-166 -102)"><g stroke="#10233F" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"><path data-ridge="roof" d="M 190 320 Q 444 254 634 126 Q 824 254 1078 320"/>
+<path data-ridge="upper-left-tip" d="M 190 424 Q 228 382 278 358"/>
+<path data-ridge="upper-right-tip" d="M 1004 358 Q 1044 389 1076 422"/>
+<path data-ridge="upper-left-arch" d="M 194 538 C 298 384 450 286 594 257 C 636 249 677 250 718 258"/>
+<path data-ridge="upper-right-arch" d="M 784 304 C 912 347 1012 440 1062 544"/>
+<path data-ridge="outer-left-tip" d="M 216 654 Q 270 544 350 468"/>
+<path data-ridge="outer-arch" d="M 404 424 C 492 366 565 335 634 335 C 810 335 950 484 1036 666"/>
+<path data-ridge="middle-arch" d="M 254 770 C 324 565 476 410 634 410 C 732 410 820 474 882 549"/>
+<path data-ridge="outer-right-tip" d="M 924 605 L 996 754"/>
+<path data-ridge="lower-left-tip" d="M 342 708 Q 334 784 304 838"/>
+<path data-ridge="lower-left-short-tip" d="M 376 844 Q 371 880 346 904"/>
+<path data-ridge="flow-outer" d="M 390 956 C 451 895 449 850 420 780 C 356 620 466 485 634 485 C 757 485 816 600 863 717 C 885 772 922 801 963 812"/>
+<path data-ridge="flow-middle" d="M 446 1010 C 528 947 539 870 498 777 C 445 650 497 560 634 560 C 722 560 758 641 792 727 C 820 797 856 844 925 873"/>
+<path data-ridge="flow-inner" d="M 504 1055 C 610 981 628 877 580 766 C 557 713 531 689 572 652 C 588 638 610 635 634 635 C 691 635 723 705 753 781 C 783 857 825 906 873 930"/>
+<path data-ridge="core" d="M 634 705 C 673 752 690 816 688 882 C 686 979 644 1044 570 1094"/>
+<path data-ridge="lower-right-short-tip" d="M 744 896 Q 771 951 822 982"/>
+<path data-ridge="lower-right-tail" d="M 744 999 Q 721 1076 630 1128"/></g></g>
+</svg>

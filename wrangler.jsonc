@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "digifender-site",
+  "main": "designs/worker.js",
+  "account_id": "f94d28e88a63fb6f34c3ecbc05aa3faf",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./designs/releases/signal/public",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "digifender.com", "custom_domain": true },
+    { "pattern": "www.digifender.com", "custom_domain": true }
+  ],
+  "observability": { "enabled": false }
+}

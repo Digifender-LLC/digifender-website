@@ -1,0 +1,30 @@
+{
+  "repository": "zemdregon/whumpo",
+  "commit": "6ed1d8ce6b55283811e1980fbd3808546c29bedb",
+  "files": [
+    {
+      "file": "terms-of-service.md",
+      "sha256": "cddbcd0f1a79231282899bdb3d2461c915de27747c3739941fb338b51c91efe2"
+    },
+    {
+      "file": "privacy-policy.md",
+      "sha256": "e0b3f7fe1cc7d60b548c000705f88da0526f17e3767d07b09b414d9512e725fb"
+    },
+    {
+      "file": "acceptable-use.md",
+      "sha256": "10a8f0c6a1178415f7ed8bf847cb5670fd453897f0be9434a5d2734648e7f248"
+    },
+    {
+      "file": "cookies.md",
+      "sha256": "a463d00df55097fcf8b655cc866157f2e412b9e1dc53c799811692b8b757bece"
+    },
+    {
+      "file": "copyright.md",
+      "sha256": "84bf2665b4f6ce1a1526e1b8776de3d9399a132f2837d53b9f17602c09ea24c1"
+    },
+    {
+      "file": "service-providers.md",
+      "sha256": "ac07f35384105bc01130df819f95b37d51cd4286eecfbaa470d618bc54a775a7"
+    }
+  ]
+}

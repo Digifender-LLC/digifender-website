@@ -1,0 +1,199 @@
+/* Round 02 — keep 01, 03, 06, 08; six new compositions. */
+.product-switcher{padding:35px 5.5% 85px;color:var(--ink)}
+.slider-heading{display:flex;justify-content:space-between;align-items:center;gap:25px;margin-bottom:25px}
+.slider-heading>span{font-size:11px;color:#58677b}
+.product-switcher .brand-panel{color:#10233f;min-height:440px}
+.product-switcher .brand-panel h2{line-height:1.12}
+.product-switcher .brand-panel:not([hidden]){animation:panel-appear .18s ease-out}
+.product-switcher .product-art{color:#10233f}
+.product-switcher .brand-tabs button[aria-selected=true]{background:#f0f4fa}
+.product-switcher .brand-panel p:not(.eyebrow){line-height:1.8}
+.product-switcher .brand-panel .status{line-height:1.6;max-width:none}
+.slider-quiet{padding-left:9%;padding-right:9%}
+.slider-quiet .brand-panel{background:#edf3ff}
+.slider-quiet .panel-1{background:#edf3e9}
+.slider-quiet .panel-2{background:#e8f3f5}
+.slider-index .brand-tabs{border-top:1px solid #dbe1e9}
+.slider-index .brand-tabs button{font-size:13px}
+.slider-index .brand-panel{background:#e9eff8;border:1px solid #d5dfed}
+.slider-index .panel-1{background:#eaf0e8}
+.slider-index .panel-2{background:#e5f0f2}
+.slider-signal{background:#d8eef3;padding-top:65px;padding-bottom:85px}
+.slider-signal .brand-tabs{border-color:#aac5d1}
+.slider-signal .brand-tabs button{color:#3a5972}
+.slider-signal .brand-tabs button[aria-selected=true]{background:#ecf6fa;color:#10233f;border-color:#245fe5}
+.slider-signal .brand-panel{background:#ecf3ff}
+.slider-signal .panel-1{background:#eff2e6}
+.slider-signal .panel-2{background:#c8e4ec}
+.slider-dark{color:#eef5ff;padding-top:55px}
+.slider-dark .slider-heading>span{color:#a6bbd0}
+.slider-dark .brand-tabs{border-color:#405568}
+.slider-dark .brand-tabs button{color:#b9cadb}
+.slider-dark .brand-tabs button[aria-selected=true]{background:#1a3047;color:#fff;border-color:#79e5ea}
+.slider-dark .brand-panel{background:#182d47;color:#eef5ff;border:1px solid #334c67}
+.slider-dark .panel-1{background:#1b3638}
+.slider-dark .panel-2{background:#15343f}
+.slider-dark .brand-panel p:not(.eyebrow){color:#c3d3e2}
+.slider-dark .brand-panel .status{color:#b2c8d7}
+.slider-dark .pill-link{background:#79e5ea;color:#09172b}
+.slider-dark .mini-window{border-color:#466784;box-shadow:0 16px 30px #0003}
+.slider-dark .lab-stack>div{background:#d2e9ec;color:#10233f}
+.slider-dark .lab-stack i{background:#245fe5}
+.slider-dark .chapel-arch{background:#537474;border-color:#385b5f;box-shadow:inset 0 0 0 22px #aac5b7}
+.slider-dark .chapel-arch span,.slider-dark .chapel-arch span:after{background:#dcf0d7}
+.slider-workshop .brand-tabs button,.slider-workshop .slider-heading{font-family:monospace}
+.slider-workshop .brand-panel{border-style:dashed}
+@keyframes panel-appear{from{opacity:.7;transform:translateY(4px)}to{opacity:1;transform:none}}
+/* 02 — a concise, deliberately modest company brief. */
+.n02{background:#fafbfc}
+.brief-shell{max-width:1420px;margin:auto}
+.n02 .site-header{border-bottom:1px solid #dbe1e9;margin:0 6%;padding:20px 0}
+.brief-hero{padding:60px 6% 55px;display:grid;grid-template-columns:26% 1fr;gap:7%}
+.brief-hero aside{padding-top:8px}
+.brief-hero aside p:last-child{font-size:12px;color:#627086;line-height:1.9}
+.brief-rule{display:block;width:30px;height:2px;background:var(--blue);margin:32px 0}
+.brief-hero h1{font-size:clamp(40px,4.3vw,64px);line-height:1.12;font-weight:500;margin:22px 0}
+.brief-hero h1 span{color:var(--blue)}
+.brief-hero>div>p:not(.eyebrow){font-size:14px;line-height:1.9;max-width:420px}
+.brief-facts{margin-top:30px;display:flex;gap:23px;font-size:10px;color:#63758b}
+.brief-facts span+span:before{content:'·';padding-right:23px}
+.slider-brief{padding:15px 6% 65px}
+.slider-brief .brand-tabs{gap:0;margin-bottom:0;border:1px solid #d5dfed;border-bottom:0}
+.slider-brief .brand-tabs button{font-size:12px}
+.slider-brief .brand-tabs button+button{border-left:1px solid #d5dfed}
+.slider-brief .brand-panel{border:1px solid #d5dfed;background:#f0f4fa}
+.slider-brief .panel-1{background:#eef3ed}.slider-brief .panel-2{background:#edf5f5}
+.n02 .about-grid{border-top:1px solid #dbe1e9;background:#fff}
+/* 04 — the quiet favorite, expressed in midnight. */
+.n04{background:#09172b}
+.n04 .site-header{height:124px}
+.n04 .site-header nav{font-size:11px}
+.midnight-hero{margin:0 5.5%;padding:26px 0 50px;border-top:1px solid #34475e;position:relative;overflow:hidden}
+.midnight-top{display:flex;justify-content:space-between;gap:20px;color:#a8bbcf}
+.midnight-top .eyebrow{font-size:9px}
+.midnight-hero h1{font-size:clamp(62px,7.1vw,105px);line-height:1.08;letter-spacing:-.06em;margin:52px 0 43px;max-width:80%;position:relative;z-index:1}
+.midnight-hero h1 span{color:#79e5ea}
+.midnight-bottom{display:flex;justify-content:space-between;gap:40px;align-items:center;max-width:75%}
+.midnight-bottom p{font-size:13px;color:#b8cadd;line-height:1.9}
+.midnight-bottom .under-link{font-size:11px}
+.midnight-signature{position:absolute;right:0;top:110px;width:180px;opacity:.7}
+.slider-midnight{border-top:1px solid #34475e;margin-top:0}
+.slider-midnight .brand-tabs button{letter-spacing:.02em;font-size:13px}
+.n04 .about-grid{background:#10233f}
+/* 05 — a daylight drawing board. */
+.n05{background:#f4f7fb}
+.n05 .site-header{border-bottom:1px solid #c6d7e8;background:#fff}
+.blueprint-hero{position:relative;display:grid;grid-template-columns:1.5fr 1fr;gap:5%;padding:60px 5.5% 0;background-color:#eaf1fa;background-image:linear-gradient(#aac3e52b 1px,transparent 1px),linear-gradient(90deg,#aac3e52b 1px,transparent 1px);background-size:32px 32px}
+.blueprint-copy{padding-top:20px}
+.blueprint-copy>.eyebrow{font-family:monospace;font-size:10px;color:#486485}
+.blueprint-copy h1{font-size:clamp(46px,5.9vw,85px);font-weight:550;line-height:1.06;margin:30px 0}
+.blueprint-copy h1 span{color:var(--blue)}
+.blueprint-copy p:not(.eyebrow){font-size:13px;line-height:1.9;color:#455d7a}
+.blueprint-copy .under-link{margin-top:25px;font-size:12px}
+.blueprint-drawing{border:1px solid #99b7d4;position:relative;display:flex;align-items:center;justify-content:center;min-height:360px;margin:0 0 25px}
+.blueprint-drawing .brand-mark{width:65%;max-width:220px}
+.blueprint-corner{position:absolute;color:#476a90;font:18px monospace}
+.corner-a{top:-13px;left:-6px}.corner-b{bottom:-13px;right:-6px}
+.drawing-label{position:absolute;bottom:17px;font:8px monospace;letter-spacing:.06em;color:#4e6b8b}
+.blueprint-foot{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:25px;border-top:1px solid #b4c8de;margin-top:45px;padding:22px 0;font:9px monospace;color:#476482}
+.blueprint-foot i{width:8%;height:1px;background:#97b2cc}
+.slider-blueprint{padding-top:50px}
+.slider-blueprint .slider-heading,.slider-blueprint .brand-tabs button{font-family:monospace}
+.slider-blueprint .brand-panel{border:1px solid #bccfe4;background:#e4edf9}
+.slider-blueprint .panel-1{background:#e6eee4}.slider-blueprint .panel-2{background:#e0eff2}
+.n05 .about-grid{background:#10233f;color:#fff}.n05 .body-copy{color:#bed0e5}
+/* 07 — a graphic map of the company's brands. */
+.n07{background:#fff}
+.n07 .site-header{border-bottom:1px solid #dbe1e9}
+.atlas-hero{display:grid;grid-template-columns:1.15fr 1fr;margin:34px 5.5% 55px;min-height:505px}
+.atlas-copy{padding:30px 12% 30px 0}
+.atlas-copy>.eyebrow{font-size:10px}
+.atlas-copy h1{font-size:clamp(58px,6.7vw,94px);line-height:1.02;font-weight:550;margin:30px 0}
+.atlas-copy h1 span{color:var(--blue)}
+.atlas-copy>p:last-child{font-size:13px;line-height:1.8;max-width:300px;color:#58677b}
+.atlas-map{background:#10233f;display:flex;flex-direction:column;align-items:center;padding:35px 35px 18px;justify-content:space-between;color:#e9f3ff}
+.atlas-map .brand-mark{width:195px;height:230px;object-fit:contain}
+.atlas-routes{width:100%;margin-top:25px}
+.atlas-routes>a{display:flex;align-items:center;gap:18px;padding:17px 0;border-top:1px solid #486079;font-size:13px}
+.atlas-routes>a:hover{color:#79e5ea}
+.atlas-routes>a>span:first-child{font:9px monospace;color:#99b7cf}
+.atlas-routes>a>span:last-child{margin-left:auto}
+.slider-atlas{background:#f4f7fb;padding-top:55px}
+.slider-atlas .brand-tabs{gap:12px;border:0}
+.slider-atlas .brand-tabs button{border:1px solid #cad8e8;border-bottom:3px solid #cad8e8;background:#fff}
+.slider-atlas .brand-tabs button[aria-selected=true]{background:#10233f;color:#fff;border-color:#10233f}
+.n07 .about-grid{background:#fff}
+/* 09 — product-first, open and typographic. */
+.n09{background:#fff}
+.n09 .site-header{height:118px}
+.open-hero{padding:30px 5.5% 35px}
+.open-hero>.eyebrow{color:#5e7189;font-size:10px}
+.open-hero h1{font-size:clamp(54px,6.3vw,92px);line-height:1.04;font-weight:500;margin:26px 0}
+.open-hero h1 span{color:var(--blue)}
+.open-hero>div{display:flex;justify-content:space-between;gap:40px;align-items:center}
+.open-hero p:not(.eyebrow){font-size:13px;line-height:1.8;color:#58677b}
+.open-hero .under-link{font-size:11px}
+.slider-open{padding-top:25px}
+.slider-open .slider-heading{display:none}
+.slider-open .brand-tabs{margin-bottom:0;gap:0;border:1px solid #dbe1e9;border-bottom:0}
+.slider-open .brand-tabs button{border-bottom:3px solid transparent;font-size:13px}
+.slider-open .brand-tabs button[aria-selected=true]{background:#245fe5;color:#fff;border-bottom-color:#245fe5}
+.slider-open .brand-panel{background:#e5edff;padding-top:38px}
+.slider-open .panel-1{background:#e5eee1}.slider-open .panel-2{background:#deeff2}
+.n09 .about-grid{background:#f4f7fb}
+/* 10 — an editorial working notebook with persistent navigation. */
+.n10{background:#f5f7f9}
+.field-layout{display:grid;grid-template-columns:280px minmax(0,1fr);min-height:100vh}
+.field-sidebar{height:100svh;position:sticky;top:0;align-self:start;background:#10233f;color:#eef5ff;padding:37px 28px;display:flex;flex-direction:column;gap:60px}
+.field-sidebar .logo{width:224px}
+.field-sidebar>div>.eyebrow{font:9px monospace;letter-spacing:.1em;color:#92b0cb;margin-bottom:25px}
+.field-sidebar>div>p:last-child{font-size:16px;line-height:1.7;color:#d1e0ee}
+.field-sidebar nav{display:flex;flex-direction:column}
+.field-sidebar nav a{display:flex;align-items:center;gap:15px;font:10px monospace;padding:21px 0;border-top:1px solid #405974;color:#a5bfd7}
+.field-sidebar nav a>span{font:12px Manrope,sans-serif;color:#fff;flex:1}
+.field-contact{font-size:11px;margin-top:auto}
+.field-content{min-width:0}
+.field-hero{padding:58px 7% 0}
+.field-hero>.eyebrow{font:9px monospace;letter-spacing:.08em;color:#55728e}
+.field-hero h1{font-size:clamp(50px,5.7vw,85px);line-height:1.06;margin:42px 0 26px;font-weight:550}
+.field-hero h1 span{color:var(--blue)}
+.field-hero>p:not(.eyebrow){font-size:13px;line-height:1.9;max-width:410px;color:#52677e}
+.field-divider{display:flex;justify-content:space-between;border-top:1px solid #cad7e3;margin-top:42px;padding:20px 0;font:8px monospace;letter-spacing:.1em;color:#587187}
+.field-divider>span:last-child{font-size:18px;line-height:.7}
+.slider-field{padding:20px 7% 70px}
+.slider-field .slider-heading>span{display:none}
+.slider-field .slider-heading>.eyebrow{font:10px monospace}
+.slider-field .brand-tabs button{font-size:11px;gap:10px;padding:17px 12px}
+.slider-field .brand-panel{padding:35px 6%;grid-template-columns:1.1fr 1fr;min-height:390px;gap:20px}
+.slider-field .brand-panel h2{font-size:35px}
+.slider-field .brand-panel .eyebrow{font-size:9px}
+.slider-field .brand-panel p:not(.eyebrow){font-size:12px}
+.slider-field .pill-link{font-size:10px;padding:11px 15px;gap:20px}
+.slider-field .product-art{min-height:275px;align-self:center}
+.slider-field .mini-window{inset:27px 0 0 12px}
+.slider-field .window-content{padding:25px 18px}
+.slider-field .window-content b{font-size:32px}
+.slider-field .mini-chat{font-size:9px;padding:13px 15px;gap:15px}
+.field-content .about-grid{padding:70px 7%;grid-template-columns:1fr;gap:30px;background:#e7eef5}
+.field-content .about-grid h2{font-size:45px}
+.field-content .body-copy{font-size:16px}
+.field-content .site-footer{padding-left:7%;padding-right:7%;grid-template-columns:1fr}
+.field-content .site-footer>div{justify-content:flex-start}
+@media(max-width:1100px){
+ .midnight-signature{width:140px;top:135px;opacity:.4}.midnight-bottom{max-width:85%}
+ .blueprint-hero{grid-template-columns:1.5fr 1fr;gap:4%}.blueprint-drawing{min-height:320px}.blueprint-copy h1{font-size:57px}
+ .atlas-hero{grid-template-columns:1.1fr 1fr}.atlas-copy h1{font-size:66px}.atlas-map{padding:30px 24px 18px}
+ .field-layout{grid-template-columns:245px minmax(0,1fr)}.field-sidebar{padding:32px 22px}.field-sidebar .logo{width:201px}.field-hero h1{font-size:58px}
+ .slider-field .brand-panel{grid-template-columns:1fr}.slider-field .product-art{width:300px;max-width:100%;justify-self:center;min-height:280px}.slider-field .brand-tabs button>span{display:none}
+}
+@media(max-width:700px){
+ .product-switcher{padding:25px 6% 55px}.slider-heading{margin-bottom:20px}.slider-heading>span{display:none}.product-switcher .brand-panel{min-height:0}.product-switcher .brand-panel h2{font-size:36px}.product-switcher .brand-panel .status{font-size:9px}.slider-quiet{padding-top:15px}.slider-signal,.slider-dark{padding-top:45px}.slider-index .brand-tabs button{font-size:11px}.slider-dark .brand-tabs button{font-size:11px}
+ .n02 .site-header{margin:0 6%;padding:20px 0;height:auto}.brief-hero{padding:40px 6% 30px;display:block}.brief-hero aside{display:none}.brief-hero h1{font-size:43px;margin:25px 0}.brief-hero>div>p:not(.eyebrow){font-size:13px}.brief-facts{gap:14px;font-size:8px}.brief-facts span+span:before{padding-right:14px}.slider-brief{padding-top:15px}.slider-brief .brand-tabs button{font-size:10px}
+ .n04 .site-header{height:auto;min-height:125px}.midnight-hero{margin:0 6%;padding:25px 0 35px}.midnight-top>span{display:none}.midnight-hero h1{font-size:51px;margin:35px 0 28px;max-width:100%}.midnight-signature{display:none}.midnight-bottom{max-width:100%;flex-direction:column;align-items:flex-start;gap:15px}.midnight-bottom p{font-size:12px}.slider-midnight{padding-top:35px}.slider-midnight .brand-tabs button{font-size:11px}
+ .blueprint-hero{padding:35px 6% 0;grid-template-columns:1fr;gap:30px}.blueprint-copy{padding:0}.blueprint-copy>.eyebrow{font-size:9px}.blueprint-copy h1{font-size:46px;margin:25px 0}.blueprint-copy p:not(.eyebrow){font-size:12px}.blueprint-copy p>br{display:none}.blueprint-drawing{min-height:230px;margin:5px 8% 0}.blueprint-drawing .brand-mark{height:175px;width:65%}.drawing-label{font-size:7px;bottom:12px}.blueprint-foot{font-size:7px;gap:9px;margin-top:0}.blueprint-foot i{display:none}.slider-blueprint .brand-tabs button{font-size:10px}
+ .atlas-hero{grid-template-columns:1fr;margin:30px 6% 35px;min-height:0}.atlas-copy{padding:0 0 32px}.atlas-copy h1{font-size:62px;margin:25px 0}.atlas-copy>p:last-child{font-size:13px}.atlas-map{padding:28px 24px 12px;gap:5px}.atlas-map .brand-mark{height:175px;width:155px}.atlas-routes{margin-top:18px}.atlas-routes>a{font-size:12px;padding:16px 0}.slider-atlas{padding-top:35px}.slider-atlas .brand-tabs{gap:5px}.slider-atlas .brand-tabs button{font-size:10px;padding:15px 6px}
+ .n09 .site-header{height:auto;min-height:125px}.open-hero{padding:30px 6% 20px}.open-hero h1{font-size:47px;margin:25px 0}.open-hero>div{flex-direction:column;align-items:start;gap:15px}.open-hero p:not(.eyebrow){font-size:12px}.slider-open{padding-top:20px}.slider-open .brand-tabs button{font-size:11px}
+ .field-layout{grid-template-columns:1fr}.field-sidebar{height:auto;position:static;padding:24px 6%;gap:18px}.field-sidebar .logo{width:235px}.field-sidebar>div{display:none}.field-sidebar nav{flex-direction:row;gap:25px}.field-sidebar nav a{border:0;padding:7px 0;font-size:0;gap:0}.field-sidebar nav a>span{font-size:11px}.field-contact{display:none}.field-hero{padding:35px 6% 0}.field-hero h1{font-size:55px;margin:30px 0 24px}.field-hero>p:not(.eyebrow){font-size:13px}.field-divider{margin-top:30px}.slider-field{padding:20px 6% 55px}.slider-field .brand-panel{padding:30px 7%;gap:25px}.slider-field .brand-panel h2{font-size:36px}.slider-field .brand-tabs button{font-size:10px;padding:15px 8px}.slider-field .product-art{width:100%;min-height:250px}.field-content .about-grid{padding:55px 6%}.field-content .about-grid h2{font-size:38px}
+}
+@media(max-width:360px){.brief-hero h1{font-size:37px}.midnight-hero h1{font-size:45px}.blueprint-copy h1{font-size:39px}.atlas-copy h1{font-size:54px}.open-hero h1{font-size:41px}.field-hero h1{font-size:48px}.product-switcher .brand-panel h2{font-size:32px}.product-switcher .brand-tabs button{font-size:10px}.slider-blueprint .brand-tabs button{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.product-switcher .brand-panel:not([hidden]){animation:none}}

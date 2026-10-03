@@ -1,0 +1,22 @@
+/*
+  Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 0
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), browsing-topics=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+/legal/whumpo/*
+  X-Robots-Tag: noindex
+/legal/terms
+  X-Robots-Tag: noindex
+/legal/chapelcloud/*
+  X-Robots-Tag: noindex
+/legal/labthrift/*
+  X-Robots-Tag: noindex
+/legal/*/print
+  ! Content-Security-Policy
+  Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Robots-Tag: noindex
+/legal/*.pdf
+  X-Robots-Tag: noindex

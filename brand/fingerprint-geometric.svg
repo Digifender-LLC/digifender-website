@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1268" height="1241" viewBox="0 0 1268 1241" fill="none">
+  <title>Geometric fingerprint roof mark</title>
+  <desc>A simplified single-color vector trace with seventeen separate ridges, a symmetric roof, uniform 48-unit strokes, rounded ends, and a transparent background.</desc>
+  <g stroke="#0066FF" stroke-width="48" stroke-linecap="round" stroke-linejoin="round">
+    <path id="roof" d="M 190 320 Q 444 254 634 126 Q 824 254 1078 320"/>
+    <path id="upper-left-tip" d="M 190 424 Q 228 382 278 358"/>
+    <path id="upper-right-tip" d="M 1004 358 Q 1044 389 1076 422"/>
+    <path id="upper-left-arch" d="M 194 538 C 298 384 450 286 594 257 C 636 249 677 250 718 258"/>
+    <path id="upper-right-arch" d="M 784 304 C 912 347 1012 440 1062 544"/>
+    <path id="outer-left-tip" d="M 216 654 Q 270 544 350 468"/>
+    <path id="outer-arch" d="M 404 424 C 492 366 565 335 634 335 C 810 335 950 484 1036 666"/>
+    <path id="middle-arch" d="M 254 770 C 324 565 476 410 634 410 C 732 410 820 474 882 549"/>
+    <path id="outer-right-tip" d="M 924 605 L 996 754"/>
+    <path id="lower-left-tip" d="M 342 708 Q 334 784 304 838"/>
+    <path id="lower-left-short-tip" d="M 376 844 Q 371 880 346 904"/>
+    <path id="flow-outer" d="M 390 956 C 451 895 449 850 420 780 C 356 620 466 485 634 485 C 757 485 816 600 863 717 C 885 772 922 801 963 812"/>
+    <path id="flow-middle" d="M 446 1010 C 528 947 539 870 498 777 C 445 650 497 560 634 560 C 722 560 758 641 792 727 C 820 797 856 844 925 873"/>
+    <path id="flow-inner" d="M 504 1055 C 610 981 628 877 580 766 C 557 713 531 689 572 652 C 588 638 610 635 634 635 C 691 635 723 705 753 781 C 783 857 825 906 873 930"/>
+    <path id="core" d="M 634 705 C 673 752 690 816 688 882 C 686 979 644 1044 570 1094"/>
+    <path id="lower-right-short-tip" d="M 744 896 Q 771 951 822 982"/>
+    <path id="lower-right-tail" d="M 744 999 Q 721 1076 630 1128"/>
+  </g>
+</svg>
