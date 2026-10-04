@@ -42,7 +42,7 @@ Run `pnpm check:portfolio` to compare live Digifender legal pages with visible l
 - `public/legal-actions.js`: local progressive enhancement for the printable page's Print / Save as PDF button.
 - `src/worker.js`: canonical-domain redirect, method restrictions and response security headers.
 
-Whumpo's six public policies are compiled directly from the sibling checkout at `../../Whumpo/docs/legal`. They remain the canonical editable product sources. `WHUMPO_LEGAL_SOURCE` can select another checkout with those files. Company, ChapelCloud, LabThrift and OpenHost documents are maintained in the content directories above. Web, print and PDF copies share each document's source and parsed blocks; do not maintain separate policy wording in the generated copies. The build fails if a source is missing, includes an unsupported Markdown block, or uses an unsupported link. It never silently deploys stale fallback copies. `.evidence/build-manifest.json` records source paths and SHA-256 revisions; `.evidence/pdf-manifest.json` records PDF routes, page counts, revisions and sizes.
+Whumpo's six public policies are compiled from the pinned snapshot in `vendor/whumpo-legal-published/` (source commit and SHA-256 hashes in `provenance.json`). The Whumpo repository remains the canonical editable source; to publish newer wording, update the vendored files and `provenance.json` in a PR. `WHUMPO_LEGAL_SOURCE` can point the build at another directory with those files for local comparison. Company, ChapelCloud, LabThrift and OpenHost documents are maintained in the content directories above. Web, print and PDF copies share each document's source and parsed blocks; do not maintain separate policy wording in the generated copies. The build fails if a source is missing, includes an unsupported Markdown block, or uses an unsupported link. It never silently deploys stale fallback copies. `.evidence/build-manifest.json` records source paths and SHA-256 revisions; `.evidence/pdf-manifest.json` records PDF routes, page counts, revisions and sizes.
 
 Public routes:
 
@@ -98,11 +98,7 @@ The source/output snapshots are `.evidence/logo-update-before/` for the initial 
 
 ## Deployment
 
-```sh
-pnpm run deploy
-```
-
-This builds and verifies the public output, then uses the existing authenticated Wrangler account. Review changes and run the browser check before deployment. Only `dist/` and the small Worker entrypoint are uploaded. Internal company formation, governance and finance folders are outside the project and never copied. DPA negotiation drafts and adoption checklists are not public assets.
+Merging to `main` deploys automatically through Cloudflare Workers Builds; do not deploy by hand. The `digifender-site` build runs `pnpm run build:ci && pnpm test` (`build:ci` creates a Python venv, installs `tools/pdf-requirements.txt` and runs `pnpm build`), then `npx wrangler deploy`. A failing build or test means no deploy. Changes under `mta-sts/` deploy the separate `digifender-mta-sts` Worker instead. Check the Workers Builds result on the merge commit in GitHub, and run the browser check before merging visible changes. Only `designs/releases/signal/public/` and the Worker entrypoint are uploaded. Internal company formation, governance and finance folders are outside the project and never copied. DPA negotiation drafts and adoption checklists are not public assets.
 
 The deployment touches the dedicated company Worker and its two custom domains. It does not deploy Whumpo, activate payments or AI providers, change email routing, purchase a domain, or upgrade a Cloudflare plan. Cloudflare's Custom Domains integration provisions the required website DNS and TLS certificate; see [Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/) and [static assets](https://developers.cloudflare.com/workers/static-assets/).
 
