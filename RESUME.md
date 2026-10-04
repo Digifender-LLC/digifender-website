@@ -19,7 +19,7 @@ pnpm test
 pnpm test:designs
 ```
 
-Browser-based verification tools may require their Playwright browser installation. See README.md for focused checks and build details. Keep `WHUMPO_LEGAL_SOURCE` set for any reproduction or intentional deployment. Authenticate Cloudflare securely on the new machine; credentials are intentionally absent.
+Browser-based verification tools may require their Playwright browser installation. See README.md for focused checks and build details. The build now defaults to `vendor/whumpo-legal-published/`. Deployment happens automatically when a PR is merged to `main` (Cloudflare Workers Builds); no local Cloudflare credentials are needed.
 
 ## Status boundaries
 

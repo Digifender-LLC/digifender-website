@@ -2,7 +2,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root=fileURLToPath(new URL('../',import.meta.url));
-const whumpoSource=path.resolve(root,process.env.WHUMPO_LEGAL_SOURCE||'../../Whumpo/docs/legal');
+const whumpoSource=path.resolve(root,process.env.WHUMPO_LEGAL_SOURCE||'vendor/whumpo-legal-published');
 export const groups=[
   {id:'digifender',name:'Digifender',route:'/legal',description:'Notices for digifender.com and company correspondence.'},
   {id:'whumpo',name:'Whumpo',route:'/legal/whumpo',description:'Accounts, AI-assisted workspaces and hosted services.',scope:'These product drafts cover Whumpo accounts, AI tools and hosted services. They have not yet been adopted.',productLinks:[{label:'Visit Whumpo',href:'https://whumpo.com/'}]},

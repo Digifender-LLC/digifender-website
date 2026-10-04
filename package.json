@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "build": "node designs/build.mjs",
+    "build:ci": "python3 -m venv .venv && .venv/bin/pip install --disable-pip-version-check -q -r tools/pdf-requirements.txt && DIGIFENDER_PYTHON=\"$PWD/.venv/bin/python3\" pnpm build",
     "build:html": "node tools/build.mjs",
     "dev": "pnpm build && wrangler dev --host localhost --port 8791",
     "test": "node tools/verify.mjs",
     "check:portfolio": "node tools/check-portfolio-links.mjs",
     "check:domains": "node tools/check-domain-entrypoints.mjs",
-    "deploy": "pnpm build && pnpm test && wrangler deploy",
     "build:designs": "node designs/build.mjs",
     "preview:designs": "node designs/serve.mjs",
     "test:designs": "node designs/verify.mjs",

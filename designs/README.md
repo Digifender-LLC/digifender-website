@@ -42,13 +42,7 @@ Without JavaScript, all four products remain visible, links and navigation work,
 
 `releases/signal/` and `releases/blueprint/` are independent, portable Cloudflare Workers packages. Each contains its own Worker, configuration, static output, metadata manifest, and usage instructions. The served `public/` directory contains only website assets; source and evidence are outside it. Each package has its own 1200×630 share image. Manrope's OFL license ships with the font.
 
-Signal is the default in the root Wrangler configuration. `pnpm deploy` builds the packages and publishes Signal to the existing `digifender-site` Worker. The standalone Signal package can also be deployed directly:
-
-```sh
-node node_modules/wrangler/bin/wrangler.js deploy --config designs/releases/signal/wrangler.jsonc
-```
-
-The Signal command was executed with the owner's authorization. Do not deploy Blueprint without a new selection. Both packages target the same existing account and custom domains. After publishing, run `node designs/live-check.mjs` and inspect the actual domain. The local preview adds `X-Robots-Tag: noindex`; this preview-only behavior is absent from the release Worker.
+Signal is the default in the root Wrangler configuration. Merging to `main` deploys it automatically to the existing `digifender-site` Worker through Cloudflare Workers Builds (see the root README); do not deploy the packages by hand. Do not switch to Blueprint without a new selection. Both packages target the same existing account and custom domains. After publishing, run `node designs/live-check.mjs` and inspect the actual domain. The local preview adds `X-Robots-Tag: noindex`; this preview-only behavior is absent from the release Worker.
 
 The homepage permits only its local script under CSP. Legal pages retain their existing stricter policy, with the print-script allowance only on print routes. Hashed CSS/JS filenames support immutable caching, while homepage responses use `no-cache`. `www` and HTTP canonical redirects, GET/HEAD restrictions, PDF download headers, draft noindex rules, and custom 404 behavior are retained.
 
