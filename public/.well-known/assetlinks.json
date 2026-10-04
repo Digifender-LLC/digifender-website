@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.digifender.adminifender.staging",
+      "sha256_cert_fingerprints": [
+        "FA:8D:6B:9C:A2:4F:63:9C:1D:05:2D:C0:50:77:86:3E:DD:5B:8A:E4:A5:E8:40:22:29:BB:36:02:74:3E:09:BB"
+      ]
+    }
+  }
+]

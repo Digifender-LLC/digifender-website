@@ -42,7 +42,16 @@ async function walk(directory,prefix='') {
   }
 }
 await walk(dist);
-assert(publicFiles.every(f=>/\.html$|\.css$|\.svg$|^legal-actions\.js$|^legal\/.+\.pdf$|^(social|apple-touch-icon)\.png$|^robots\.txt$|^sitemap\.xml$|^_headers$|^_redirects$/.test(f)),'Unexpected public artifact');
+assert(publicFiles.every(f=>/\.html$|\.css$|\.svg$|^legal-actions\.js$|^legal\/.+\.pdf$|^(social|apple-touch-icon)\.png$|^robots\.txt$|^sitemap\.xml$|^_headers$|^_redirects$|^\.well-known\/assetlinks\.json$/.test(f)),'Unexpected public artifact');
+// Digital Asset Links for Adminifender passkeys on digifender.com: Android app statements only, fingerprints in colon hex.
+const assetLinks=JSON.parse(await readFile(path.join(dist,'.well-known/assetlinks.json'),'utf8'));
+assert(Array.isArray(assetLinks)&&assetLinks.length>0,'assetlinks.json lists statements');
+for(const statement of assetLinks) {
+  assert.equal(statement.target?.namespace,'android_app','assetlinks.json targets Android apps only');
+  assert(/^com\.digifender\.adminifender(\.staging)?$/.test(statement.target.package_name),'assetlinks.json names an Adminifender package');
+  assert(statement.target.sha256_cert_fingerprints.every(f=>/^([0-9A-F]{2}:){31}[0-9A-F]{2}$/.test(f)),'assetlinks.json fingerprints are SHA-256');
+  assert(statement.relation.includes('delegate_permission/common.get_login_creds'),'assetlinks.json delegates login credentials');
+}
 for(const document of pages.filter(p=>p.kind==='document')) {
   const pdf=await readFile(path.join(dist,document.pdfRoute.slice(1)));
   assert.equal(pdf.subarray(0,5).toString(),'%PDF-','Valid PDF signature');
