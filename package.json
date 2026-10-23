@@ -8,7 +8,7 @@
     "build:ci": "python3 -m venv .venv && .venv/bin/pip install --disable-pip-version-check -q -r tools/pdf-requirements.txt && DIGIFENDER_PYTHON=\"$PWD/.venv/bin/python3\" pnpm build",
     "build:html": "node tools/build.mjs",
     "dev": "pnpm build && wrangler dev --host localhost --port 8791",
-    "test": "node tools/verify.mjs",
+    "test": "node tools/verify.mjs && node tools/verify-managed-hosting.mjs",
     "check:portfolio": "node tools/check-portfolio-links.mjs",
     "check:domains": "node tools/check-domain-entrypoints.mjs",
     "build:designs": "node designs/build.mjs",
