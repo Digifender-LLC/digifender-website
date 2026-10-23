@@ -4,6 +4,7 @@ import {spawnSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {renderHome,variants} from './pages.mjs';
+import {renderManagedHosting} from './managed-hosting.mjs';
 import {groups} from '../src/legal-documents.mjs';
 const here=path.dirname(fileURLToPath(import.meta.url));
 const root=path.dirname(here);
@@ -44,6 +45,7 @@ for (const [variant,info] of Object.entries(variants)) {
   await cp(path.join(root,'brand/digifender-brand-family/fonts/Manrope-Variable.ttf'),path.join(output,'assets/manrope.ttf'));
   await cp(path.join(root,'brand/digifender-brand-family/fonts/OFL-Manrope.txt'),path.join(output,'assets/OFL-Manrope.txt'));
   await writeFile(path.join(output,'index.html'),renderHome(variant,assetNames));
+  await writeFile(path.join(output,'managed-hosting.html'),renderManagedHosting(variant,assetNames));
   await cp(path.join(here,'assets',`social-${variant}.png`),path.join(output,'social.png'));
   const headers=await readFile(path.join(output,'_headers'),'utf8');
   await writeFile(path.join(output,'_headers'),headers+"\n/\n  ! Content-Security-Policy\n  Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests\n");
